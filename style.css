@@ -29,5 +29,10 @@ Body{
 
 
 #nav {
-  padding: 0; 
+  padding: 0;
+}
+
+#nav li {
+  float: left;
+  list-style-type: none;
 }
