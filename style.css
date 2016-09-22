@@ -1,7 +1,13 @@
+html {
+  font-size: 100%;
+}
+
 p{
   Color: red;
   color: #666666;
   font-family: 'Merriweather', serif;
+  font-size: 1rem;
+  line-height: 1.4rem; 
 }
 
 h1 {
