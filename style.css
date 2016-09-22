@@ -5,9 +5,13 @@ html {
 p{
   Color: red;
   color: #666666;
-  font-family: 'Merriweather', serif;
+  font-family: 'Merriweather', Georgia, "Times New Roman", serif;
   font-size: 1rem;
-  line-height: 1.4rem; 
+  line-height: 1.4rem;
+}
+
+em{
+  font-style:italic;
 }
 
 h1 {
