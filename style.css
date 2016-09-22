@@ -29,7 +29,7 @@ h2 {
 }
 
 Body{
-  background-color: #ebe3ce;
+  background-color: #d9d7d4;
 }
 
 #container{
@@ -64,7 +64,7 @@ Body{
 #nav a:link, a:visited {
   display: block;
   color: #fff;
-  background-color: #3bb9ff;
+  background-color: #08424C;
   font-weight: bold;
   text-align: center;
   text-decoration: none;
@@ -73,7 +73,7 @@ Body{
 }
 
 #nav a:hover, a:active {
-  background-color: #56a5ec;
+  background-color: #383838;
 
 }
 
@@ -90,5 +90,5 @@ Body{
 
 img {
   border-style: none;
-  padding-left: 1rem; 
+  padding-left: 1rem;
 }
