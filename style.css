@@ -36,7 +36,6 @@ Body{
   Width: 95%;
   background-color:#ffffff;
   margin: 0 auto;
-  padding-left: 1rem; 
 }
 
 .caption{
@@ -91,4 +90,5 @@ Body{
 
 img {
   border-style: none;
+  padding-left: 1rem; 
 }
