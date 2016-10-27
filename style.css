@@ -109,3 +109,46 @@ img {
 .main {
   text-align: left;
 }
+
+
+
+
+@media (min-width: 800px){
+    .navigation {
+      flex-flow: row;
+      justify-content: flex-end;
+  }
+    .navigation a:hover {
+      background: black;
+    }
+    .aside {
+      flex: 1 auto;
+    }
+    .main {
+      flex: 3 0px;
+    }
+    .aside-1{
+      order:1;
+    }
+    .main{
+      order: 2;
+    }
+    .aside-2{
+      order: 3;
+    }
+    .footer{
+      order: 4;
+    }
+    .main {
+      display: flex;
+      flex-flow: row;
+    }
+    img {
+      width: 50%;
+      height: 50%;
+      margin-right: 10px;
+    }
+    .navigation a {
+      border: none;
+    }
+}
