@@ -70,13 +70,19 @@ Body{
 }
 
 
+  #nav li {
+  float: left;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
 .navigation{
   list-style: none;
   margin:0;
   padding: 0;
   display: flex;
   flex-flow: column;
-  width: 100%;
 }
 
 .navigation a{
