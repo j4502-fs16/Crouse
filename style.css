@@ -97,6 +97,11 @@ Body{
   border-bottom: none;
 }
 
+
+.wrapper {
+  display: flex;
+}
+
 #footer {
   color: black;
   font-family: Georgia, "Times New Roman", serif;
@@ -107,7 +112,7 @@ Body{
 img {
   border-style: none;
   padding-left: 1rem;
-  width: 100%;
+  width: 50%;
 }
 
 .header, .main, .aside, .footer {
