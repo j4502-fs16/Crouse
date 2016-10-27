@@ -130,7 +130,7 @@ img {
 
 .main, .aside, .footer {
   flex:1 100%;
-  padding:10%;
+  padding:0;
 }
 
 .aside-1 {
