@@ -110,7 +110,11 @@ img {
   text-align: left;
 }
 
-
+.wrapper {
+  display: flex;
+  flex-flow: row wrap;
+  text-align: left
+}
 
 
 @media (min-width: 800px){
