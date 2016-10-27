@@ -75,9 +75,7 @@ Body{
 
 #nav a:hover, a:active {
   background-color: #383838;
-
 }
-
 
 
 #footer {
@@ -86,8 +84,6 @@ Body{
   font-size: 0.8em;
   border-top: 1px solid black;
 }
-
-
 
 img {
   border-style: none;
