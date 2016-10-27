@@ -134,7 +134,7 @@ img {
 }
 
 
-.main, .aside, {
+.main, .aside {
   flex:1 100%;
   padding:10%;
 }
@@ -188,4 +188,3 @@ img {
     .wrapper{
       display: flex;
     }
-}
