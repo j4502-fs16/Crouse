@@ -101,3 +101,11 @@ img {
   flex:1 100%;
   padding:10%;
 }
+
+.aside-1 {
+  background: #383838;
+}
+
+.main {
+  text-align: left;
+}
