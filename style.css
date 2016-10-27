@@ -87,6 +87,7 @@ Body{
 
 .navigation li:last-of-type a{
   border-bottom: none;
+}
 
 #footer {
   color: black;
