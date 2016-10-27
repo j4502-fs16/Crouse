@@ -105,6 +105,10 @@ Body{
   text-align: left;
 }
 
+.aside-1 {
+  justify-content: flex-start;
+}
+
 #footer {
   color: black;
   font-family: Georgia, "Times New Roman", serif;
