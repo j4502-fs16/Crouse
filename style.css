@@ -58,7 +58,7 @@ Body{
   list-style-type: none;
   margin: 0;
   padding: 0;
-  width: 25%;
+  width: 100%;
 }
 
 
@@ -83,7 +83,7 @@ Body{
   margin:0;
   padding: 10px;
   display: flex;
-  flex-flow:column;
+  flex-flow: column;
 }
 
 
@@ -92,6 +92,9 @@ Body{
   display:block;
   text-align: center;
 }
+
+.navigation li:last-of-type a{
+  border-bottom: none;
 
 #footer {
   color: black;
@@ -123,7 +126,7 @@ img {
 
 @media (min-width: 800px){
     .navigation {
-      flex-flow: column;
+      flex-flow: row;
       justify-content: flex-end;
   }
     .navigation a:hover {
