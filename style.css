@@ -83,6 +83,7 @@ Body{
   padding: 0;
   display: flex;
   flex-flow: column;
+  justify-content: center;
 }
 
 .navigation a{
