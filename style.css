@@ -53,14 +53,6 @@ Body{
   padding: 0;
 }
 
-#nav li {
-  float: left;
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  width: 100%;
-}
-
 
 #nav a:link, a:visited {
   display: block;
@@ -85,7 +77,6 @@ Body{
   display: flex;
   flex-flow: row;
 }
-
 
 .navigation a{
   text-decoration: none;
