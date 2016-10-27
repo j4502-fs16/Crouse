@@ -125,6 +125,7 @@ Body{
 img {
   border-style: none;
   padding-left: 1rem;
+  padding-right: 1rem;
   width: 50%;
 }
 .footer {
@@ -167,10 +168,7 @@ img {
     }
     .main{
       order: 2;
-    }
-    .aside-2{
-      order: 3;
-    }
+}
     .footer{
       order: 4;
     }
