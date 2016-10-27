@@ -171,4 +171,8 @@ img {
     .navigation a {
       border: none;
     }
+
+    .wrapper{
+      display: none;
+    }
 }
