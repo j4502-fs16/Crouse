@@ -99,7 +99,7 @@ Body{
 
 
 .wrapper {
-  display: flex;
+  display: block;
   justify-content: flex-start;
   text-decoration: none;
   text-align: left;
@@ -173,6 +173,6 @@ img {
     }
 
     .wrapper{
-      display: block;
+      display: flex;
     }
 }
