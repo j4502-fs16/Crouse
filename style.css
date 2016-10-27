@@ -136,7 +136,7 @@ img {
 
 .main, .aside {
   flex:1 100%;
-  padding:10%;
+  padding:5%;
 }
 
 .aside-1 {
