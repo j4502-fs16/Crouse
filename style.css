@@ -110,6 +110,13 @@ img {
   text-align: left;
 }
 
+.container{
+  display: flex;
+  flex-flow: row wrap;
+  font-weight: bold;
+  text-align: center;
+}
+
 @media (min-width: 800px){
     .navigation {
       flex-flow: row;
