@@ -82,6 +82,7 @@ Body{
   display:block;
   text-align: center;
   padding: 10px;
+  flex-wrap: nowrap;
 }
 
 #footer {
@@ -110,11 +111,6 @@ img {
   text-align: left;
 }
 
-.wrapper {
-  display: flex;
-  flex-flow: row wrap;
-  text-align: left
-}
 
 
 @media (min-width: 800px){
