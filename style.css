@@ -83,7 +83,7 @@ Body{
   margin:0;
   padding: 10px;
   display: flex;
-  flex-flow: column;
+  flex-flow: row;
 }
 
 
