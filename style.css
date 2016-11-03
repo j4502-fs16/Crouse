@@ -183,7 +183,6 @@ img {
       width: 50%;
       height: 50%;
       margin-right: 10px;
-      display: none;
     }
     .navigation a {
       border: none;
@@ -240,5 +239,9 @@ img {
     .main img {
   float: right;
   width: 38%;
+}
+img {
+  display: none;
+}
 
   }
