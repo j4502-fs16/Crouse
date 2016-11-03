@@ -231,4 +231,8 @@ img {
       order:4;
     }
 
+    .main img {
+  float: right;
+  width: 38%;
+
   }
