@@ -149,7 +149,7 @@ img {
 
 
 
-@media (min-width: 800px){
+@media (min-width: 600px){
     .navigation {
       flex-flow: row;
       justify-content: flex-end;
@@ -187,6 +187,48 @@ img {
 
     .wrapper{
       display: flex;
+    }
+  }
+
+  @media screen and (min-width:1000px){
+
+    .wrapper{
+      display: flex;
+      flex-flow:row;
+    }
+
+    #nav ul{
+      display:flex;
+      flex-flow:column;
+    }
+
+    #nav li{
+      border-right:none;
+      border-bottom:1px solid rgba(255,255,255,.5);
+    }
+
+    #nav li:last-child {
+      border-bottom: none;
+    }
+
+    #content{
+      order:1;
+      margin:10px;
+    }
+
+    #aside{
+      order:3;
+      margin:10px;
+    }
+
+    #nav{
+      order:2;
+      margin:10px;
+      align-self: flex-start;
+    }
+
+    #footer{
+      order:4;
     }
 
   }
