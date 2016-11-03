@@ -188,9 +188,9 @@ img {
     .wrapper{
       display: flex;
     }
-    img {
-    display: block;
-}
+    img, .caption {
+        display: none;
+    }
   }
 
   @media screen and (min-width:1000px){
