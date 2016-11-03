@@ -188,6 +188,9 @@ img {
     .wrapper{
       display: flex;
     }
+    img {
+    display: block;
+}
   }
 
   @media screen and (min-width:1000px){
