@@ -152,6 +152,10 @@ img {
 }
 
 
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
 @media (min-width: 600px){
     .navigation {
       flex-flow: row;
