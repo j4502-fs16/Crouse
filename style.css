@@ -193,7 +193,6 @@ img {
       display: flex;
     }
 
-    }
   }
 
   @media screen and (min-width:1000px){
@@ -240,9 +239,6 @@ img {
     .main img {
   float: right;
   width: 38%;
-}
-img {
-  display: none;
 }
 
   }
