@@ -183,6 +183,7 @@ img {
       width: 50%;
       height: 50%;
       margin-right: 10px;
+      display: none;
     }
     .navigation a {
       border: none;
