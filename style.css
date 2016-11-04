@@ -127,6 +127,7 @@ img {
   padding-left: 1rem;
   padding-right: 1rem;
   width: 50%;
+  height: 50%;
 }
 .footer {
   flex: 1 100%;
