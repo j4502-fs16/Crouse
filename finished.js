@@ -11,4 +11,8 @@ $(document).ready(function() {
 		$('nav ul').removeAttr('style');
 	 }
 	});//end resize
+
+
+
+
 });//end ready
