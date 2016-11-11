@@ -155,7 +155,39 @@ img, .caption {
     display: none;
 }
 
-@media (min-width: 600px){
+/*Java script stuff  after this point */
+nav a {
+    color: #fff;
+    display: block;
+    text-decoration: none;
+    padding: 20px 30px;
+}
+
+.menu {
+    order: 1;
+    font-size: 1.75em;
+    width: 2em;
+    background-color: #fff;
+}
+
+header h1 {
+    order: 2;
+    font-size: 2em;
+}
+
+nav ul {
+    display: none;
+}
+
+
+
+
+
+
+
+/*Java script stuff here and up*/
+
+@media (min-width: 700px){
     .navigation {
       flex-flow: row;
       justify-content: flex-end;
@@ -202,7 +234,7 @@ img, .caption {
 
   }
 
-  @media screen and (min-width:1000px){
+  @media screen and (min-width:700px){
 
     .wrapper{
       display: flex;
@@ -247,5 +279,35 @@ img, .caption {
   float: right;
   width: 38%;
 }
+
+/*Java script stuff here down*/
+
+nav ul {
+    display: flex;
+}
+
+nav ul li {
+    border-top: none;
+}
+
+.menu {
+    display: none;
+    color: #fff;
+}
+
+header h1 {
+    order: 1;
+}
+
+nav {
+    order: 2;
+}
+
+
+
+
+
+
+
 
   }
